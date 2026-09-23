@@ -1,0 +1,12 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+h5py>=3.8
+tqdm>=4.65
+# Only needed for the CAM baselines in fame/baselines/cam.py
+grad-cam>=1.5.0
+# Only needed by tests/test_baseline_equivalence.py, which compares against the
+# original scipy-based CorrRISE correlation
+scipy>=1.10
